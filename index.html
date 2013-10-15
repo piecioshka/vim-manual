@@ -11,6 +11,17 @@
     <link href="styles/default.css" rel="stylesheet" type="text/css">
 
     <script src="scripts/libraries/angularjs/angular.js"></script>
+
+    <!-- Google Analitycs //-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-5140088-26', 'vim.edu.pl');
+        ga('send', 'pageview');
+    </script>
 </head>
 <body>
     <div id="app">
@@ -19,6 +30,21 @@
             <ul>
                 <li><code>Ctrl+c</code><p>change current highlighted directory as root</p></li>
                 <li><code>Ctrl+u</code><p>change current directory as parent</p></li>
+            </ul>
+        </section>
+        <section id="config">
+            <h1>Config</h1>
+            <ul>
+                <li><code>set clipboard=unnamedplus</code><p>VIM use the same buffer as OS</p></li>
+                <li><code>set expandtab</code><p>change tabulators to spaces</p></li>
+                <li><code>set tabstop=4</code><p>number of characters as indent with TAB key</p></li>
+                <li><code>set shiftwidth=4</code><p>number of characters as indent with insertions</p></li>
+            </ul>
+        </section>
+        <section id="editor">
+            <h1>Editor</h1>
+            <ul>
+                <li><code>:retab</code><p>to reload current config file</p></li>
             </ul>
         </section>
     </div>
