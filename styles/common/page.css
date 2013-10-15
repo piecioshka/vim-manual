@@ -1,0 +1,61 @@
+html {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#app {
+    margin: 0 auto;
+    padding: 10px 200px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#help {
+    padding: 10px 200px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    border-bottom: 1px solid #999;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+ul li {
+    line-height: 32px;
+}
+
+code {
+    font-family: monospace;
+    font-size: 16px;
+    background: rgba(64, 127, 255, 1);
+    color: #fff;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 0 5px 0 0;
+}
+
+p {
+    display: inline;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    color: #fff;
+}
+p:before {
+    content: ' - ';
+    padding: 0 5px;
+}
+p:after {
+    padding: 0 5px;
+    content: ' ';
+}
+
