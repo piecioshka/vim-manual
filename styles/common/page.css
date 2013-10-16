@@ -1,10 +1,10 @@
 html {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 1);
 }
 
 #app {
     margin: 0 auto;
-    padding: 10px 200px;
+    width: 960px;
     background: rgba(0, 0, 0, 0.8);
 }
 
