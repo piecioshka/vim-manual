@@ -1,4 +1,4 @@
-# vim.edu.pl
+# vim-manual
 
 Education place about VIM
 

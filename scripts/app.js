@@ -1,6 +1,4 @@
-(function (root, factory) {
-    factory(root.$);
-}(this, function ($) {
+(function ($) {
     'use strict';
 
     var keysMap = {
@@ -10,9 +8,14 @@
 
     function resolveHandler(evt) {
         var scrollPosition = $(window).scrollTop();
+
         switch (keysMap[evt.keyCode]) {
-            case 40: $(window).scrollTop(scrollPosition - 40); break; // up
-            case 38: $(window).scrollTop(scrollPosition + 40); break; // down
+            case 40:
+                $(window).scrollTop(scrollPosition - 40);
+                break; // up
+            case 38:
+                $(window).scrollTop(scrollPosition + 40);
+                break; // down
         }
     }
 
@@ -27,4 +30,4 @@
     }
 
     vimModeEnable();
-}));
+}(Zepto));
