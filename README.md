@@ -1,13 +1,13 @@
 # vim-manual
 
-Education place about VIM.
+**Vim** education area.
 
 ![vim-logo](./images/vim-logo.png)
 
 ### Editor
 
  - `so ~/.vimrc` - reload configuration in opened editor
- - `:retab` - replace current whitespaces with sets in .vimrc file
+ - `:retab` - replace current whitespaces with sets in `.vimrc` file
  - `:noh` (`:nohl`, `:nohlsearch`) - clear highlight after search
  - `:cw` - show result list after searching
  - `:e` - open file to edit, replaced current window with file
@@ -17,9 +17,12 @@ Education place about VIM.
  - `/foo` - searching text `foo` in whole document
  - `:s/foo/bar/g` - replace globally `foo` to `bar`
 
-### Configuration file
+### Configuration rules
+
+The best way is put them to file (`~/.vimrc`). Default path for configuration.
 
  - `syntax on` - enable syntax highlighting
+ - `colorscheme molokai` - set editor theme
  - `set number` - enable line number
  - `set noic` - don't ignore letter case, ex. in searching
  - `set expandtab` - change tabulators to spaces
@@ -35,7 +38,6 @@ Education place about VIM.
  - `set guifont=Inconsolata\ 12` - change font in editor
  - `au VimEnter * NERDTree` - auto open NERDTree plugin in each editor instance
  - `map <F9> :NERDTreeToggle <CR>` - set shortcut, ex. this line add service for F9 button, what will show/hide NERDTree panel
- - `colorscheme molokai` - set editor theme
 
 ### Plugins
 
@@ -55,12 +57,22 @@ Education place about VIM.
  - https://github.com/tpope/vim-markdown - add nice highlight for *.md files
  - https://github.com/tpope/vim-fugitive - add shortcuts for Git commands
 
-### Plugin: NERDTree
+#### Plugin: NERDTree
+
+Aside panel with directory structure. Some useful shortcuts:
 
  - `Ctrl+c` change current highlighted directory as root
  - `Ctrl+u` change current directory as parent
  - `Ctrl+p` set focus on parent dir on NERDTree list
  - `Ctrl+o` on dir: open list with files; on file: edit file
+
+#### Plugin: Vimium
+
+Google Chrome plugin which support Vim navigation into browser.
+
+More description on my blog [PL]: http://piecioshka.pl/blog/2015/01/23/vimium-plugin-do-twojej-przegladarki.html
+
+![vimium-logo](./images/vimium-logo.jpg)
 
 ### Links
 
