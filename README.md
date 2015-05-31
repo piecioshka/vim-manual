@@ -4,7 +4,7 @@
 
 ![vim-logo](./images/vim-logo.png)
 
-All `ex` commands available in file `ex.txt`.
+All `ex` commands available in file [ex.txt](./ex.txt).
 
 ### Editor
 
