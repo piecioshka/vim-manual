@@ -4,6 +4,8 @@
 
 ![vim-logo](./images/vim-logo.png)
 
+All `ex` commands available in file `ex.txt`.
+
 ### Editor
 
  - `so ~/.vimrc` - reload configuration in opened editor
@@ -80,6 +82,7 @@ More description on my blog [PL]: http://piecioshka.pl/blog/2015/01/23/vimium-pl
  - http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png - cool cheat sheet
  - http://vimcasts.org/ - video cast about VIM
  - http://www.vim.org/docs.php - full VIM documentation
+ - http://www.cs.swarthmore.edu/help/vim/ - tips and tricks with Vim
 
 ### Help
 
