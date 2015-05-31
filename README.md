@@ -15,7 +15,7 @@
  - `:tabc` (`:tabclose`) - close current tab
  - `:! ls` - run command `ls` in shell
  - `/foo` - searching text `foo` in whole document
- - `:s/foo/bar/g` - replace globally `foo` to `bar`
+ - `:%s/foo/bar/g` - replace globally `foo` to `bar`
 
 ### Configuration rules
 
