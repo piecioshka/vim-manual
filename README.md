@@ -54,7 +54,7 @@ The best way is put them to file (`~/.vimrc`). Default path for configuration.
  - https://github.com/matze/vim-move - can move up/down current line
  - https://github.com/mattn/emmet-vim - plugin for emmet - successor of zen-coding
  - https://github.com/scrooloose/nerdcommenter - comments line
- - https://github.com/tpope/vim-markdown - add nice highlight for *.md files
+ - https://github.com/tpope/vim-markdown - add nice highlight for \*.md files
  - https://github.com/tpope/vim-fugitive - add shortcuts for Git commands
 
 #### Plugin: NERDTree
@@ -86,7 +86,8 @@ More description on my blog [PL]: http://piecioshka.pl/blog/2015/01/23/vimium-pl
 You can always use this:
 
  - `:h quickref`
- - `:h SHORTCUT` ex. `:h dd`
+ - `:h SHORTCUT` (`:h dd`, `:h :s`)
+ - `:exusage` - open help window and scroll to `EX commands` (very useful when you try check meaning of all Vim commands)
 
 ---
 
