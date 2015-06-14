@@ -18,6 +18,15 @@ All `ex` commands available in file [ex.txt](./ex.txt).
  - `:! ls` - run command `ls` in shell
  - `/foo` - searching text `foo` in whole document
  - `:%s/foo/bar/g` - replace globally `foo` to `bar`
+ - `CTRL+E` - scroll the window down
+ - `CTRL+Y` - scroll the window up
+ - `CTRL+F` - scroll down one page
+ - `CTRL+B` - scroll up one page
+ - `H` - move cursor to the top of the window
+ - `M` - move cursor to the middle of the window
+ - `L` - move cursor to the bottom of the window
+ - `gg` - go to top of file
+ - `G` - go to bottom of file
 
 ### Configuration rules
 
