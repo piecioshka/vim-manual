@@ -6,7 +6,7 @@
 
 All `ex` commands available in file [ex.txt](./ex.txt).
 
-### Editor
+## Editor
 
  - `so ~/.vimrc` - reload configuration in opened editor
  - `:retab` - replace current whitespaces with sets in `.vimrc` file
@@ -18,6 +18,9 @@ All `ex` commands available in file [ex.txt](./ex.txt).
  - `:! ls` - run command `ls` in shell
  - `/foo` - searching text `foo` in whole document
  - `:%s/foo/bar/g` - replace globally `foo` to `bar`
+
+### Navigation
+
  - `CTRL+E` - scroll the window down
  - `CTRL+Y` - scroll the window up
  - `CTRL+F` - scroll down one page
@@ -28,7 +31,42 @@ All `ex` commands available in file [ex.txt](./ex.txt).
  - `gg` - go to top of file
  - `G` - go to bottom of file
 
-### Configuration rules
+### Text objects
+
+ - w - words
+ - s - sentences
+ - p - paragraphs
+ - t - tags (available in XML/HTML files)
+
+### Motions
+
+ - a - all
+ - i - in
+ - t - 'til
+ - f - find forward
+ - F - find backward
+
+### Commands
+
+ - d - delete (also cut)
+ - c - change (delete, then place in insert mode)
+ - y - yank (copy)
+ - v - visual select
+
+**Magic**
+
+```
+{command}{text object or motion}
+```
+
+Example:
+
+ - diw - delete in word
+ - caw - change all word (grap the whitespace)
+ - yi) - yank all text inside parentheses
+ - va" - visually select all inside doublequotes including doublequotes
+
+## Configuration rules
 
 The best way is put them to file (`~/.vimrc`). Default path for configuration.
 
@@ -50,7 +88,7 @@ The best way is put them to file (`~/.vimrc`). Default path for configuration.
  - `au VimEnter * NERDTree` - auto open NERDTree plugin in each editor instance
  - `map <F9> :NERDTreeToggle <CR>` - set shortcut, ex. this line add service for F9 button, what will show/hide NERDTree panel
 
-### Plugins
+## Plugins
 
  - https://github.com/gmarik/vundle - plugin manager for VIM
  - https://github.com/kien/ctrlp.vim - show window with last modified files
@@ -68,7 +106,7 @@ The best way is put them to file (`~/.vimrc`). Default path for configuration.
  - https://github.com/tpope/vim-markdown - add nice highlight for \*.md files
  - https://github.com/tpope/vim-fugitive - add shortcuts for Git commands
 
-#### Plugin: NERDTree
+### Plugin: NERDTree
 
 Aside panel with directory structure. Some useful shortcuts:
 
@@ -77,7 +115,7 @@ Aside panel with directory structure. Some useful shortcuts:
  - `Ctrl+p` set focus on parent dir on NERDTree list
  - `Ctrl+o` on dir: open list with files; on file: edit file
 
-#### Plugin: Vimium
+### Plugin: Vimium
 
 Google Chrome plugin which support Vim navigation into browser.
 
@@ -85,7 +123,7 @@ More description on my blog [PL]: http://piecioshka.pl/blog/2015/01/23/vimium-pl
 
 ![vimium-logo](./images/vimium-logo.jpg)
 
-### Links
+## Links
 
  - http://walking-without-crutches.heroku.com/ - textmate vs. vim - useful presentation
  - http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png - cool cheat sheet
@@ -93,7 +131,7 @@ More description on my blog [PL]: http://piecioshka.pl/blog/2015/01/23/vimium-pl
  - http://www.vim.org/docs.php - full VIM documentation
  - http://www.cs.swarthmore.edu/help/vim/ - tips and tricks with Vim
 
-### Help
+## Help
 
 You can always use this:
 
