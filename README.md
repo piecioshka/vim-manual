@@ -61,10 +61,22 @@ All `ex` commands available in file [ex.txt](./ex.txt).
 
 Example:
 
- - diw - delete in word
- - caw - change all word (grap the whitespace)
- - yi) - yank all text inside parentheses
- - va" - visually select all inside doublequotes including doublequotes
+ - `diw` - delete in word
+ - `caw` - change all word (grap the whitespace)
+ - `yi)` - yank all text inside parentheses
+ - `va"` - visually select all inside doublequotes including doublequotes
+
+### Macros
+
+#### Record a macro
+
+ - `q{register}`
+ - `(do the things)`
+ - `q`
+
+#### Play a macro
+
+ - `@{register}`
 
 ## Configuration rules
 
