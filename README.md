@@ -18,6 +18,7 @@ All `ex` commands available in file [ex.txt](./ex.txt).
  - `:! ls` - run command `ls` in shell
  - `/foo` - searching text `foo` in whole document
  - `:%s/foo/bar/g` - replace globally `foo` to `bar`
+ - `CTRL+a` - increment number
 
 ### Navigation
 
@@ -150,6 +151,10 @@ You can always use this:
  - `:h quickref`
  - `:h SHORTCUT` (`:h dd`, `:h :s`)
  - `:exusage` - open help window and scroll to `EX commands` (very useful when you try check meaning of all Vim commands)
+
+## Legend
+
+ - `CTRL+` -> `^`
 
 ---
 
