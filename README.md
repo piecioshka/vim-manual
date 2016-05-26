@@ -71,17 +71,17 @@ Example:
 
 ## Macros
 
-### Record a macro
+### Record
 
-* `q{register}`
+* `q{label}`
 * `(do the things)`
 * `q`
 
-`{register}` - is a single char
+`{label}` - is a single char
 
-### Play a macro
+### Play
 
-* `@{register}`
+* `@{label}`
 
 ## Configuration rules
 
