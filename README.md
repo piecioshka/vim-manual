@@ -1,12 +1,12 @@
 # vim-manual
 
-**Vim** education area.
-
-![vim-logo](./images/vim-logo.png)
+> **Vim** education area.
 
 All `ex` commands available in file [ex.txt](./ex.txt).
 
-## Editor
+## Shortcuts
+
+### Editor
 
  - `so ~/.vimrc` - reload configuration in opened editor
  - `:retab` - replace current whitespaces with sets in `.vimrc` file
@@ -32,6 +32,28 @@ All `ex` commands available in file [ex.txt](./ex.txt).
  - `gg` - go to top of file
  - `G` - go to bottom of file
 
+---
+
+## Magic commands
+
+```
+{command}{text object or motion}
+```
+
+Example:
+
+ - `diw` - delete in word
+ - `caw` - change all word (grap the whitespace)
+ - `yi)` - yank all text inside parentheses
+ - `va"` - visually select all inside doublequotes including doublequotes
+
+### Commands
+
+ - d - delete (also cut)
+ - c - change (delete, then place in insert mode)
+ - y - yank (copy)
+ - v - visual select
+
 ### Text objects
 
  - w - words
@@ -47,35 +69,15 @@ All `ex` commands available in file [ex.txt](./ex.txt).
  - f - find forward
  - F - find backward
 
-### Commands
+## Macros
 
- - d - delete (also cut)
- - c - change (delete, then place in insert mode)
- - y - yank (copy)
- - v - visual select
-
-**Magic**
-
-```
-{command}{text object or motion}
-```
-
-Example:
-
- - `diw` - delete in word
- - `caw` - change all word (grap the whitespace)
- - `yi)` - yank all text inside parentheses
- - `va"` - visually select all inside doublequotes including doublequotes
-
-### Macros
-
-#### Record a macro
+### Record a macro
 
  - `q{register}`
  - `(do the things)`
  - `q`
 
-#### Play a macro
+### Play a macro
 
  - `@{register}`
 
@@ -119,7 +121,7 @@ The best way is put them to file (`~/.vimrc`). Default path for configuration.
  - https://github.com/tpope/vim-markdown - add nice highlight for \*.md files
  - https://github.com/tpope/vim-fugitive - add shortcuts for Git commands
 
-### Plugin: NERDTree
+### Plugins: NERDTree
 
 Aside panel with directory structure. Some useful shortcuts:
 
@@ -128,13 +130,11 @@ Aside panel with directory structure. Some useful shortcuts:
  - `Ctrl+p` set focus on parent dir on NERDTree list
  - `Ctrl+o` on dir: open list with files; on file: edit file
 
-### Plugin: Vimium
+### Plugins: Vimium
 
 Google Chrome plugin which support Vim navigation into browser.
 
 More description on my blog [PL]: http://piecioshka.pl/blog/2015/01/23/vimium-plugin-do-twojej-przegladarki.html
-
-![vimium-logo](./images/vimium-logo.jpg)
 
 ## Links
 
@@ -154,7 +154,7 @@ You can always use this:
 
 ## Legend
 
- - `CTRL+` -> `^`
+ - `CTRL+^`
 
 ---
 
