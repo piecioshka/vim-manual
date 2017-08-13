@@ -8,13 +8,13 @@
 
 ### Window management
 
-* `Ctrl+w =` - reset windows into best width & height
-* `Ctrl+w h` - move focus - to left window
-* `Ctrl+w j` - move focus - to down window
-* `Ctrl+w k` - move focus - to up window
-* `Ctrl+w l` - move focus - to rigth window
-* `Ctrl+w >` - resize window - descrese width size
-* `Ctrl+w <` - resize window - increase width size
+* <kbd>Ctrl+w =</kbd> - reset windows into best width & height
+* <kbd>Ctrl+w h</kbd> - move focus - to left window
+* <kbd>Ctrl+w j</kbd> - move focus - to down window
+* <kbd>Ctrl+w k</kbd> - move focus - to up window
+* <kbd>Ctrl+w l</kbd> - move focus - to rigth window
+* <kbd>Ctrl+w ></kbd> - resize window - descrese width size
+* <kbd>Ctrl+w <</kbd> - resize window - increase width size
 
 ### Editor
 
@@ -32,10 +32,10 @@
 
 ### Navigation
 
-* `CTRL+E` - scroll the window down
-* `CTRL+Y` - scroll the window up
-* `CTRL+F` - scroll down one page
-* `CTRL+B` - scroll up one page
+* <kbd>CTRL+E</kbd> - scroll the window down
+* <kbd>CTRL+Y</kbd> - scroll the window up
+* <kbd>CTRL+F</kbd> - scroll down one page
+* <kbd>CTRL+B</kbd> - scroll up one page
 * `H` - move cursor to the top of the window
 * `M` - move cursor to the middle of the window
 * `L` - move cursor to the bottom of the window
@@ -132,23 +132,23 @@ Aside panel with directory structure. Some useful shortcuts:
 
 * 'q' - exit
 * `A` - maximize window
-* `Ctrl+c` change current highlighted directory as root
-* `Ctrl+u` change current directory as parent
-* `Ctrl+p` set focus on parent dir on NERDTree list
-* `Ctrl+o` on dir: open list with files; on file: edit file
+* <kbd>Ctrl+c</kbd> change current highlighted directory as root
+* <kbd>Ctrl+u</kbd> change current directory as parent
+* <kbd>Ctrl+p</kbd> set focus on parent dir on NERDTree list
+* <kbd>Ctrl+o</kbd> on dir: open list with files; on file: edit file
 
 ## Plugins: CtrlP
 
 Search in: files, buffers. Some shortcuts:
 
-* `Ctrl+f` - move base of searching into left side (switch between modes)
-* `Ctrl+b` - like `Ctrl+f` but into right side
-* `Ctrl+r` - search by regexp mode
-* `Ctrl+j` - like `j` in file (move cursor in search list down)
-* `Ctrl+k` - like `k`
-* `Ctrl+t` - open selected file in new tab
-* `Ctrl+x` - open selected file in half horizontal window
-* `Ctrl+v` - like `Ctrl+x` but in vertical mode
+* <kbd>Ctrl+f</kbd> - move base of searching into left side (switch between modes)
+* <kbd>Ctrl+b</kbd> - like `Ctrl+f` but into right side
+* <kbd>Ctrl+r</kbd> - search by regexp mode
+* <kbd>Ctrl+j</kbd> - like `j` in file (move cursor in search list down)
+* <kbd>Ctrl+k</kbd> - like `k`
+* <kbd>Ctrl+t</kbd> - open selected file in new tab
+* <kbd>Ctrl+x</kbd> - open selected file in half horizontal window
+* <kbd>Ctrl+v</kbd> - like `Ctrl+x` but in vertical mode
 
 ## Links
 
@@ -188,7 +188,7 @@ You can always use this:
 
 ## Legend
 
-* `CTRL+^`
+* <kbd>CTRL+^</kbd> - TODO(piecioshka): explain command
 
 ---
 
