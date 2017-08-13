@@ -4,17 +4,17 @@
 
 ## Shortcuts
 
-* <kbd>Ctrl+w =</kbd> - test command
+* <kbd>Ctrl + w =</kbd> - test command
 
 ### Window management
 
-* <kbd>Ctrl+w =</kbd> - reset windows into best width & height
-* <kbd>Ctrl+w h</kbd> - move focus - to left window
-* <kbd>Ctrl+w j</kbd> - move focus - to down window
-* <kbd>Ctrl+w k</kbd> - move focus - to up window
-* <kbd>Ctrl+w l</kbd> - move focus - to rigth window
-* <kbd>Ctrl+w ></kbd> - resize window - descrese width size
-* <kbd>Ctrl+w <</kbd> - resize window - increase width size
+* <kbd>Ctrl + w =</kbd> - reset windows into best width & height
+* <kbd>Ctrl + w h</kbd> - move focus - to left window
+* <kbd>Ctrl + w j</kbd> - move focus - to down window
+* <kbd>Ctrl + w k</kbd> - move focus - to up window
+* <kbd>Ctrl + w l</kbd> - move focus - to rigth window
+* <kbd>Ctrl + w ></kbd> - resize window - descrese width size
+* <kbd>Ctrl + w <</kbd> - resize window - increase width size
 
 ### Editor
 
@@ -28,14 +28,14 @@
 * `:! ls` - run command `ls` in shell
 * `/foo` - searching text `foo` in whole document
 * `:%s/foo/bar/g` - replace globally `foo` to `bar`
-* `CTRL+a` - increment number
+* <kbd>Ctrl + a</kbd> - increment number
 
 ### Navigation
 
-* <kbd>CTRL+E</kbd> - scroll the window down
-* <kbd>CTRL+Y</kbd> - scroll the window up
-* <kbd>CTRL+F</kbd> - scroll down one page
-* <kbd>CTRL+B</kbd> - scroll up one page
+* <kbd>Ctrl + e</kbd> - scroll the window down
+* <kbd>Ctrl + y</kbd> - scroll the window up
+* <kbd>Ctrl + f</kbd> - scroll down one page
+* <kbd>Ctrl + b</kbd> - scroll up one page
 * `H` - move cursor to the top of the window
 * `M` - move cursor to the middle of the window
 * `L` - move cursor to the bottom of the window
@@ -132,23 +132,23 @@ Aside panel with directory structure. Some useful shortcuts:
 
 * 'q' - exit
 * `A` - maximize window
-* <kbd>Ctrl+c</kbd> change current highlighted directory as root
-* <kbd>Ctrl+u</kbd> change current directory as parent
-* <kbd>Ctrl+p</kbd> set focus on parent dir on NERDTree list
-* <kbd>Ctrl+o</kbd> on dir: open list with files; on file: edit file
+* <kbd>Ctrl + c</kbd> change current highlighted directory as root
+* <kbd>Ctrl + u</kbd> change current directory as parent
+* <kbd>Ctrl + p</kbd> set focus on parent dir on NERDTree list
+* <kbd>Ctrl + o</kbd> on dir: open list with files; on file: edit file
 
 ## Plugins: CtrlP
 
 Search in: files, buffers. Some shortcuts:
 
-* <kbd>Ctrl+f</kbd> - move base of searching into left side (switch between modes)
-* <kbd>Ctrl+b</kbd> - like `Ctrl+f` but into right side
-* <kbd>Ctrl+r</kbd> - search by regexp mode
-* <kbd>Ctrl+j</kbd> - like `j` in file (move cursor in search list down)
-* <kbd>Ctrl+k</kbd> - like `k`
-* <kbd>Ctrl+t</kbd> - open selected file in new tab
-* <kbd>Ctrl+x</kbd> - open selected file in half horizontal window
-* <kbd>Ctrl+v</kbd> - like `Ctrl+x` but in vertical mode
+* <kbd>Ctrl + f</kbd> - move base of searching into left side (switch between modes)
+* <kbd>Ctrl + b</kbd> - like <kbd>Ctrl + f</kbd> but into right side
+* <kbd>Ctrl + r</kbd> - search by regexp mode
+* <kbd>Ctrl + j</kbd> - like `j` in file (move cursor in search list down)
+* <kbd>Ctrl + k</kbd> - like `k`
+* <kbd>Ctrl + t</kbd> - open selected file in new tab
+* <kbd>Ctrl + x</kbd> - open selected file in half horizontal window
+* <kbd>Ctrl + v</kbd> - like <kbd>Ctrl + x</kbd> but in vertical mode
 
 ## Links
 
@@ -188,7 +188,7 @@ You can always use this:
 
 ## Legend
 
-* <kbd>CTRL+^</kbd> - TODO(piecioshka): explain command
+* <kbd>Ctrl + ^</kbd> - TODO(piecioshka): explain command
 
 ---
 
