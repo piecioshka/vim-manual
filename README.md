@@ -4,13 +4,17 @@
 
 ## Shortcuts
 
-## Window management
+* <kbd>Ctrl+w =</kbd> - test command
+
+### Window management
 
 * `Ctrl+w =` - reset windows into best width & height
-* `Ctrl+w j` - move focus into down window
-* `Ctrl+w k` - like `Ctrl+w j` but in up window
-* `Ctrl+w >` - resize window in right direction
-* `Ctrl+w <` - like `Ctrl+w >` but in left direction
+* `Ctrl+w h` - move focus - to left window
+* `Ctrl+w j` - move focus - to down window
+* `Ctrl+w k` - move focus - to up window
+* `Ctrl+w l` - move focus - to rigth window
+* `Ctrl+w >` - resize window - descrese width size
+* `Ctrl+w <` - resize window - increase width size
 
 ### Editor
 
