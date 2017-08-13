@@ -1,8 +1,6 @@
 # vim-manual
 
-> **Vim** education area.
-
-All `ex` commands available in file [ex.txt](./ex.txt).
+> 📖 List of popular shortcuts in VIM
 
 ## Shortcuts
 
