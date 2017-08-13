@@ -35,6 +35,8 @@
 * `:retab` - replace current whitespaces with sets in `.vimrc` file
 * `:! ls` - run command `ls` in shell
 * <kbd>Ctrl + a</kbd> - increment number
+* <kbd>ZZ</kbd> - write files and quit
+* <kbd>ZQ</kbd> - quit all instances of vim
 
 ### Cursor navigation
 
@@ -42,11 +44,13 @@
 * <kbd>Ctrl + y</kbd> - scroll the window up
 * <kbd>Ctrl + f</kbd> - scroll down one page
 * <kbd>Ctrl + b</kbd> - scroll up one page
-* `H` - move cursor to the top of the window
-* `M` - move cursor to the middle of the window
-* `L` - move cursor to the bottom of the window
+* `H` - move cursor to the top of the viewport
+* `M` - move cursor to the middle of the viewport
+* `L` - move cursor to the bottom of the viewport
 * `gg` - move cursor to the top of file
 * `G` - move cursror to the bottom of file
+* `{` - move cursor to previous empty line
+* `}` - move cursor to next empty line
 
 ---
 
@@ -175,6 +179,8 @@ Search in: files, buffers. Some shortcuts:
 * http://vimcasts.org/ - video cast about VIM
 * http://www.vim.org/docs.php - full VIM documentation
 * http://www.cs.swarthmore.edu/help/vim/ - tips and tricks with Vim
+* https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet/
+* https://gist.github.com/awidegreen/3854277
 
 ### Plugins for VIM
 
