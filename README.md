@@ -50,6 +50,7 @@
 
 * `m{char}` - save current position into `{char}`
 * \`{char} - go to saved mark
+* `:marks` - display list of current saved markers
 
 ### Cursor navigation
 
