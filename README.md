@@ -1,6 +1,6 @@
 # vim-manual
 
-> 📖 List of popular shortcuts in Vim
+> 📖 List of shortcuts which I used working with Vim
 
 ## Shortcuts
 
@@ -57,7 +57,7 @@
 * <kbd>ZQ</kbd> - quit all instances of vim
 * <kbd>Ctrl + z</kbd> - hide Vim to background - use `fg` in terminal to bring it to foreground
 
-## Editor: Settings
+### Editor: Settings
 
 * `au VimEnter * NERDTree` - auto open NERDTree plugin in each editor instance
 
