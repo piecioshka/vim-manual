@@ -46,6 +46,11 @@
 * <kbd>ZZ</kbd> - write files and quit
 * <kbd>ZQ</kbd> - quit all instances of vim
 
+#### Editor: Markers
+
+* `m{char}` - save current position into `{char}`
+* ```{char}`` - go to saved mark
+
 ### Cursor navigation
 
 * <kbd>Ctrl + e</kbd> - scroll the window down
@@ -110,15 +115,13 @@ Example:
 
 ### Record
 
-* `q{label}`
+* `q{char}` - start recording
 * `(do the things)`
-* `q`
-
-`{label}` - is a single char
+* `q` - exit from recording
 
 ### Play
 
-* `@{label}`
+* `@{char}`
 
 ---
 
