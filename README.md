@@ -13,6 +13,13 @@
 * <kbd>Ctrl + w l</kbd> - move focus - to rigth window
 * <kbd>Ctrl + w ></kbd> - resize window - descrese width size
 * <kbd>Ctrl + w <</kbd> - resize window - increase width size
+* <kbd>Ctrl + w -</kbd> - resize window - increase size
+* <kbd>Ctrl + w +</kbd> - resize window - decrease size
+* <kbd>{number}Ctrl + w _ </kbd> - set window height which is set to {number} lines
+* <kbd>Ctrl + w H</kbd> - move focused window to the far left
+* <kbd>Ctrl + w J</kbd> - move focused window to the bottom
+* <kbd>Ctrl + w K</kbd> - move focused window to the top
+* <kbd>Ctrl + w L</kbd> - move focused window to the far right
 
 ### Editor
 
