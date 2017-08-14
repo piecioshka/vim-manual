@@ -1,6 +1,6 @@
 # vim-manual
 
-> 📖 List of popular shortcuts in VIM
+> 📖 List of popular shortcuts in Vim
 
 ## Shortcuts
 
@@ -16,6 +16,8 @@
 * <kbd>Ctrl + w -</kbd> - resize window - increase size
 * <kbd>Ctrl + w +</kbd> - resize window - decrease size
 * <kbd>{number}Ctrl + w _ </kbd> - set window height which is set to {number} lines
+* <kbd>Ctrl + w _ </kbd> - maximize in height
+* <kbd>Ctrl + w | </kbd> - maximize in width
 * <kbd>Ctrl + w H</kbd> - move focused window to the far left
 * <kbd>Ctrl + w J</kbd> - move focused window to the bottom
 * <kbd>Ctrl + w K</kbd> - move focused window to the top
@@ -48,10 +50,20 @@
 
 * `so ~/.vimrc` - reload configuration in opened editor
 * `:retab` - replace current whitespaces with sets in `.vimrc` file
-* `:! ls` - run command `ls` in shell
+* `:!ls` - run command `ls` in shell
 * <kbd>Ctrl + a</kbd> - increment number
+* <kbd>Ctrl + x</kbd> - decrement number
 * <kbd>ZZ</kbd> - write files and quit
 * <kbd>ZQ</kbd> - quit all instances of vim
+* <kbd>Ctrl + z</kbd> - hide Vim to background - use `fg` in terminal to bring it to foreground
+
+## Editor: Settings
+
+* `au VimEnter * NERDTree` - auto open NERDTree plugin in each editor instance
+
+### Editor: Custom shortcuts
+
+* `map <F9> :NERDTreeToggle <CR>` - show/hide NERDTree panel on press `<F9>`
 
 #### Editor: Markers
 
@@ -76,6 +88,7 @@
 * `30%` - move cursor to line which is 30% of the top of file
 * `zz` - center verticaly line with cursor
 * ` `` ` - back cursors to previous place
+* <kbd>Ctrl + ^</kbd> - return to previous file
 
 ---
 
@@ -151,10 +164,8 @@ The best way is put them to file (`~/.vimrc`). Default path for configuration.
 * `set incsearch` - run searching process after you press any char (after '/')
 * `set nowrapscan` - stop navigate throught search result when file is ends
 * `set nowrap` - don't wrap lines
-* `set clipboard=unnamedplus` - VIM use the same buffer as OS
+* `set clipboard=unnamedplus` - Vim use the same buffer as OS
 * `set guifont=Inconsolata\ 12` - change font in editor
-* `au VimEnter * NERDTree` - auto open NERDTree plugin in each editor instance
-* `map <F9> :NERDTreeToggle <CR>` - set shortcut, ex. this line add service for F9 button, what will show/hide NERDTree panel
 
 ---
 
@@ -162,54 +173,54 @@ The best way is put them to file (`~/.vimrc`). Default path for configuration.
 
 ### Plugins: Vimium
 
-Google Chrome plugin which support Vim navigation into browser.
+`Google Chrome` plugin which support Vim navigation in browser.
 
-More description on my blog [PL]: http://piecioshka.pl/blog/2015/01/23/vimium-plugin-do-twojej-przegladarki.html
+More description in article [PL]: http://piecioshka.pl/blog/2015/01/23/vimium-plugin-do-twojej-przegladarki.html
 
 ### Plugins: NERDTree
 
 Aside panel with directory structure. Some useful shortcuts:
 
-* 'q' - exit
+* `q` - exit
 * `A` - maximize window
-* <kbd>Ctrl + c</kbd> change current highlighted directory as root
-* <kbd>Ctrl + u</kbd> change current directory as parent
-* <kbd>Ctrl + p</kbd> set focus on parent dir on NERDTree list
-* <kbd>Ctrl + o</kbd> on dir: open list with files; on file: edit file
-
-----
+* <kbd>Ctrl + c</kbd> - change current highlighted directory as root
+* <kbd>Ctrl + u</kbd> - change current directory as parent
+* <kbd>Ctrl + p</kbd> - set focus on parent dir on NERDTree list
+* <kbd>Ctrl + o</kbd> - on dir: open list with files; on file: edit file
+* <kbd>s</kbd> - open file in vertical split mode
+* <kbd>i</kbd> - open file in horizontal split mode
 
 ### Plugins: CtrlP
 
 Search in: files, buffers. Some shortcuts:
 
 * <kbd>Ctrl + f</kbd> - move base of searching into left side (switch between modes)
-* <kbd>Ctrl + b</kbd> - like <kbd>Ctrl + f</kbd> but into right side
+* <kbd>Ctrl + b</kbd> - move base of searching into right side
 * <kbd>Ctrl + r</kbd> - search by regexp mode
 * <kbd>Ctrl + j</kbd> - like `j` in file (move cursor in search list down)
 * <kbd>Ctrl + k</kbd> - like `k`
 * <kbd>Ctrl + t</kbd> - open selected file in new tab
 * <kbd>Ctrl + x</kbd> - open selected file in half horizontal window
-* <kbd>Ctrl + v</kbd> - like <kbd>Ctrl + x</kbd> but in vertical mode
+* <kbd>Ctrl + v</kbd> - open selected file in half vertical mode
 
 ---
 
 ## Links
 
-### Learn more about VIM
+### Learn more about Vim
 
 * http://walking-without-crutches.heroku.com/ - textmate vs. vim - useful presentation
 * http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png - cool cheat sheet
-* http://vimcasts.org/ - video cast about VIM
-* http://www.vim.org/docs.php - full VIM documentation
+* http://vimcasts.org/ - video cast about Vim
+* http://www.vim.org/docs.php - full Vim documentation
 * http://www.cs.swarthmore.edu/help/vim/ - tips and tricks with Vim
 * https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet/
 * https://gist.github.com/awidegreen/3854277
 * https://www.computerhope.com/unix/vim.htm
 
-### Plugins for VIM
+### Plugins for Vim
 
-* https://github.com/gmarik/vundle - plugin manager for VIM
+* https://github.com/gmarik/vundle - plugin manager for Vim
 * https://github.com/ctrlpvim/ctrlp.vim - show window with last modified files
 * https://github.com/scrooloose/nerdtree - NERDTree support editor for projects navigation
 * https://github.com/ervandew/supertab - show suggest after `<tab>` press
@@ -234,12 +245,6 @@ You can always use this:
 * `:h quickref`
 * `:h SHORTCUT` (`:h dd`, `:h :s`)
 * `:exusage` - open help window and scroll to `EX commands` (very useful when you try check meaning of all Vim commands)
-
----
-
-## Legend
-
-* <kbd>Ctrl + ^</kbd> - TODO(piecioshka): explain command
 
 ---
 
