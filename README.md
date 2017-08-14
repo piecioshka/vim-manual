@@ -25,9 +25,17 @@
 #### Editor: Searching, greping etc
 
 * `:noh` (`:nohl`, `:nohlsearch`) - clear highlight after search
-* `/foo` - searching text `foo` in whole document
+* `/foo` - searching text `foo` in whole document (forwards)
+* `?foo` - searching text `foo` in whole document (backwards)
 * `:cw` - show result list after searching
 * `:%s/foo/bar/g` - replace globally `foo` to `bar`
+* `*` - searching word where cursor is on it (forwards)
+* `#` - searching word where cursor is on it (backwards)
+* `g*` - searching partial words where cursor is on it (forwards)
+* `g#` - searching partial words where cursor is on it (backwards)
+* `/\<foo` - searching words starting with `foo`
+* `/foo\>` - searching words ending with `foo`
+* `/\<foo\>` - searching words `foo`
 
 #### Editor: Misc
 
@@ -51,6 +59,10 @@
 * `G` - move cursror to the bottom of file
 * `{` - move cursor to previous empty line
 * `}` - move cursor to next empty line
+* `%` - jump between bracket in line
+* `30%` - move cursor to line which is 30% of the top of file
+* `zz` - center verticaly line with cursor
+* ` `` ` - back cursors to previous place
 
 ---
 
@@ -126,6 +138,7 @@ The best way is put them to file (`~/.vimrc`). Default path for configuration.
 * `set autoindent` - enable automatic indention
 * `set hlsearch` - enable highlighting after searching process
 * `set incsearch` - run searching process after you press any char (after '/')
+* `set nowrapscan` - stop navigate throught search result when file is ends
 * `set nowrap` - don't wrap lines
 * `set clipboard=unnamedplus` - VIM use the same buffer as OS
 * `set guifont=Inconsolata\ 12` - change font in editor
@@ -181,13 +194,14 @@ Search in: files, buffers. Some shortcuts:
 * http://www.cs.swarthmore.edu/help/vim/ - tips and tricks with Vim
 * https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet/
 * https://gist.github.com/awidegreen/3854277
+* https://www.computerhope.com/unix/vim.htm
 
 ### Plugins for VIM
 
 * https://github.com/gmarik/vundle - plugin manager for VIM
 * https://github.com/ctrlpvim/ctrlp.vim - show window with last modified files
 * https://github.com/scrooloose/nerdtree - NERDTree support editor for projects navigation
-* https://github.com/ervandew/supertab - show suggest after <tab> press
+* https://github.com/ervandew/supertab - show suggest after `<tab>` press
 * https://github.com/scrooloose/syntastic - check syntax after save file
 * https://github.com/bling/vim-airline - show fancy chars in bottom bar, some arrows etc.
 * https://github.com/majutsushi/tagbar - show outline of methods in file
