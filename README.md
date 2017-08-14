@@ -49,7 +49,7 @@
 #### Editor: Markers
 
 * `m{char}` - save current position into `{char}`
-* ```{char}`` - go to saved mark
+* \`{char} - go to saved mark
 
 ### Cursor navigation
 
