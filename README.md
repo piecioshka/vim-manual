@@ -102,8 +102,9 @@ Example:
 
 * `diw` - "delete in word" - remove single word when cursor is on it
 * `caw` - "change all word" (grap the whitespace)
-* `ciw` - remove word and enter in *insert* mode
-* `ci}` - remove text in parentheses
+* `ciw` - remove word and enter to *insert* mode
+* `ci}` - remove text in parentheses and enter to *insert* mode
+* `cit` - remove text in HTML tags
 * `yi)` - yank text inside parentheses
 * `va"` - visually select all inside doublequotes (including doublequotes)
 * `vi"` - like `va"` but without doublequote
