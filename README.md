@@ -190,6 +190,18 @@ Aside panel with directory structure. Some useful shortcuts:
 * <kbd>s</kbd> - open file in vertical split mode
 * <kbd>i</kbd> - open file in horizontal split mode
 
+### Plugins: NERDCommenter
+
+Comment line with simple 
+
+* <kbd>\cc</kbd> - comment line (recognized filetype and comment in current lang)
+* <kbd>\c[SPACE]</kbd> - toggle comment
+* <kbd>\cu</kbd> - remove comment
+* <kbd>\cs</kbd> - comment line in multiline mode
+* <kbd>\cy</kbd> - yank line and comment it
+* <kbd>\c$</kbd> - comment from cursor to end of line
+* <kbd>\cA</kbd> - put comment delimiters and set cursor between them
+
 ### Plugins: CtrlP
 
 Search in: files, buffers. Some shortcuts:
