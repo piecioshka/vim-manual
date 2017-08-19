@@ -56,6 +56,7 @@
 * <kbd>ZZ</kbd> - write files and quit
 * <kbd>ZQ</kbd> - quit all instances of vim
 * <kbd>Ctrl + z</kbd> - hide Vim to background - use `fg` in terminal to bring it to foreground
+* <kbd>Ctrl + l</kbd> - redraw Vim windows
 
 ### Editor: Settings
 
