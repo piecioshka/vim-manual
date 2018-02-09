@@ -74,15 +74,15 @@
 
 ### Cursor navigation
 
-* scroll whole window:
-    - <kbd>Ctrl + e</kbd> - down
-    - <kbd>Ctrl + y</kbd> - up
 * scroll half of window:
     - <kbd>Ctrl + d</kbd> - down
     - <kbd>Ctrl + u</kbd> - up
 * scroll one page:
     - <kbd>Ctrl + f</kbd> - down
     - <kbd>Ctrl + b</kbd> - up
+* scroll one line (without moving cursor):
+    - <kbd>Ctrl + e</kbd> - down
+    - <kbd>Ctrl + y</kbd> - up
 * `H` - move cursor to the top of the viewport
 * `M` - move cursor to the middle of the viewport
 * `L` - move cursor to the bottom of the viewport
