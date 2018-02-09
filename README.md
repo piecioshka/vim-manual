@@ -74,25 +74,27 @@
 
 ### Cursor navigation
 
-* scroll half of window:
-    - <kbd>Ctrl + d</kbd> - down
-    - <kbd>Ctrl + u</kbd> - up
 * scroll one page:
     - <kbd>Ctrl + f</kbd> - down
     - <kbd>Ctrl + b</kbd> - up
+* scroll half of window:
+    - <kbd>Ctrl + d</kbd> - down
+    - <kbd>Ctrl + u</kbd> - up
 * scroll one line (without moving cursor):
     - <kbd>Ctrl + e</kbd> - down
     - <kbd>Ctrl + y</kbd> - up
-* `H` - move cursor to the top of the viewport
-* `M` - move cursor to the middle of the viewport
-* `L` - move cursor to the bottom of the viewport
-* `gg` - move cursor to the top of file
-* `G` - move cursror to the bottom of file
-* `{` - move cursor to previous empty line
-* `}` - move cursor to next empty line
-* `%` - jump between bracket in line
-* `30%` - move cursor to line which is 30% of the top of file
-* `zz` - center verticaly line with cursor
+    - <kbd>zz</kbd> - center verticaly line with cursor
+* move cursor on the viewport
+    - <kbd>H</kbd> - to the top
+    - <kbd>M</kbd> - to the middle
+    - <kbd>L</kbd> - to the bottom
+* move cursor on the file
+    - <kbd>gg</kbd> - to the top
+    - <kbd>G</kbd> - to the bottom
+    - <kbd>30%</kbd> - to line which is 30% of whole file
+* <kbd>{</kbd> - move cursor to previous empty line
+* <kbd>}</kbd> - move cursor to next empty line
+* <kbd>%</kbd> - jump between bracket in line
 * ` `` ` - back cursors to previous place
 * <kbd>Ctrl + ^</kbd> - return to previous file
 
