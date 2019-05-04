@@ -1,6 +1,6 @@
 # vim-manual
 
-> 📖 List of shortcuts which I used working with Vim
+📖 List of shortcuts which I used working with Vim
 
 ## Shortcuts
 
@@ -10,8 +10,8 @@
 * <kbd>Ctrl + w h</kbd> - move focus - to left window
 * <kbd>Ctrl + w j</kbd> - move focus - to down window
 * <kbd>Ctrl + w k</kbd> - move focus - to up window
-* <kbd>Ctrl + w l</kbd> - move focus - to rigth window
-* <kbd>Ctrl + w ></kbd> - resize window - descrese width size
+* <kbd>Ctrl + w l</kbd> - move focus - to right window
+* <kbd>Ctrl + w ></kbd> - resize window - decrease width size
 * <kbd>Ctrl + w <</kbd> - resize window - increase width size
 * <kbd>Ctrl + w -</kbd> - resize window - increase size
 * <kbd>Ctrl + w +</kbd> - resize window - decrease size
@@ -75,23 +75,23 @@
 ### Cursor navigation
 
 * scroll one page:
-    - <kbd>Ctrl + f</kbd> - down
-    - <kbd>Ctrl + b</kbd> - up
+    + <kbd>Ctrl + f</kbd> - down
+    + <kbd>Ctrl + b</kbd> - up
 * scroll half of window:
-    - <kbd>Ctrl + d</kbd> - down
-    - <kbd>Ctrl + u</kbd> - up
+    + <kbd>Ctrl + d</kbd> - down
+    + <kbd>Ctrl + u</kbd> - up
 * scroll one line (without moving cursor):
-    - <kbd>Ctrl + e</kbd> - down
-    - <kbd>Ctrl + y</kbd> - up
-    - <kbd>zz</kbd> - center verticaly line with cursor
+    + <kbd>Ctrl + e</kbd> - down
+    + <kbd>Ctrl + y</kbd> - up
+    + <kbd>zz</kbd> - center vertically line with cursor
 * move cursor on the viewport
-    - <kbd>H</kbd> - to the top
-    - <kbd>M</kbd> - to the middle
-    - <kbd>L</kbd> - to the bottom
+    + <kbd>H</kbd> - to the top
+    + <kbd>M</kbd> - to the middle
+    + <kbd>L</kbd> - to the bottom
 * move cursor on the file
-    - <kbd>gg</kbd> - to the top
-    - <kbd>G</kbd> - to the bottom
-    - <kbd>30%</kbd> - to line which is 30% of whole file
+    + <kbd>gg</kbd> - to the top
+    + <kbd>G</kbd> - to the bottom
+    + <kbd>30%</kbd> - to line which is 30% of whole file
 * <kbd>{</kbd> - move cursor to previous empty line
 * <kbd>}</kbd> - move cursor to next empty line
 * <kbd>%</kbd> - jump between bracket in line
@@ -102,42 +102,50 @@
 
 ## Magic commands
 
-```
+```text
 {command}{text object or motion}
 ```
 
-Example:
+* Commands
+    + `d` - delete (also cut)
+    + `c` - change (delete, then place in insert mode)
+    + `y` - yank (copy)
+    + `v` - visual select
+* Text objects
+    + `w` - words
+    + `s` - sentences
+    + `p` - paragraphs
+    + `t` - tags (available in XML/HTML files)
+* Motions
+    + `a` - all
+    + `i` - in
+    + `t` - 'til
+    + `f` - find forward
+    + `F` - find backward
+
+### Magic commands: Delete text
 
 * `diw` - "delete in word" - remove single word when cursor is on it
+* `ds{` - delete nearest braces `{}`
+* `dt.` - delete text till `.`
+
+### Magic commands: Change text
+
 * `caw` - "change all word" (grap the whitespace)
 * `ciw` - remove word and enter to *insert* mode
 * `ci}` - remove text in parentheses and enter to *insert* mode
 * `cit` - remove text in HTML tags
-* `yi)` - yank text inside parentheses
-* `va"` - visually select all inside doublequotes (including doublequotes)
-* `vi"` - like `va"` but without doublequote
 
-### Commands
+### Magic commands: Copy text
 
-* `d` - delete (also cut)
-* `c` - change (delete, then place in insert mode)
-* `y` - yank (copy)
-* `v` - visual select
+* `yi)` - copy text inside parentheses
 
-### Text objects
+### Magic commands: Visual select text
 
-* `w` - words
-* `s` - sentences
-* `p` - paragraphs
-* `t` - tags (available in XML/HTML files)
-
-### Motions
-
-* `a` - all
-* `i` - in
-* `t` - 'til
-* `f` - find forward
-* `F` - find backward
+* `va"` - visually select all inside double quotes (including double quotes)
+* `vi"` - like `va"` but without double quotes
+* `vtq` - visually select text till `q` letter (stop before letter)
+* `vfq` - visually select text till `q` letter (stop after letter)
 
 ---
 
@@ -201,7 +209,7 @@ Aside panel with directory structure. Some useful shortcuts:
 
 ### Plugins: NERDCommenter
 
-Comment line with simple 
+Comment line with simple
 
 * <kbd>\cc</kbd> - comment line (recognized filetype and comment in current lang)
 * <kbd>\c[SPACE]</kbd> - toggle comment
