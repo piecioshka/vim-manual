@@ -7,26 +7,26 @@
 * [<g-emoji class="g-emoji" alias="computer_mouse" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5b1.png">🖱</g-emoji> Cursor navigation](#-cursor-navigation)
 * [<g-emoji class="g-emoji" alias="framed_picture" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5bc.png">🖼</g-emoji> Window management](#-window-management)
 * [<g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> Editor](#-editor)
-    + [Editor: Open files](#editor-open-files)
-    + [Editor: Searching, greping etc](#editor-searching-greping-etc)
-    + [Editor: Misc](#editor-misc)
-    + [Editor: Settings](#editor-settings)
-    + [Editor: Custom shortcuts](#editor-custom-shortcuts)
-    + [Editor: Markers](#editor-markers)
+    + [Open files](#editor-open-files)
+    + [Searching, greping etc](#editor-searching-greping-etc)
+    + [Misc](#editor-misc)
+    + [Settings](#editor-settings)
+    + [Custom shortcuts](#editor-custom-shortcuts)
+    + [Markers](#editor-markers)
 * [<g-emoji class="g-emoji" alias="crystal_ball" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f52e.png">🔮</g-emoji> Magic commands](#-magic-commands)
-    + [Magic commands: Delete text](#magic-commands-delete-text)
-    + [Magic commands: Change text](#magic-commands-change-text)
-    + [Magic commands: Copy text](#magic-commands-copy-text)
-    + [Magic commands: Visual select text](#magic-commands-visual-select-text)
+    + [Delete text](#magic-commands-delete-text)
+    + [Change text](#magic-commands-change-text)
+    + [Copy text](#magic-commands-copy-text)
+    + [Visual select text](#magic-commands-visual-select-text)
 * [<g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji> Macros](#-macros)
     + [Record](#record)
     + [Play](#play)
 * [<g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji> Configuration rules](#️-configuration-rules)
 * [<g-emoji class="g-emoji" alias="electric_plug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50c.png">🔌</g-emoji> Plugins](#-plugins)
-    + [Plugins: Vimium](#plugins-vimium)
-    + [Plugins: NERDTree](#plugins-nerdtree)
-    + [Plugins: NERDCommenter](#plugins-nerdcommenter)
-    + [Plugins: CtrlP](#plugins-ctrlp)
+    + [Vimium](#plugins-vimium)
+    + [NERDTree](#plugins-nerdtree)
+    + [NERDCommenter](#plugins-nerdcommenter)
+    + [CtrlP](#plugins-ctrlp)
 * [<g-emoji class="g-emoji" alias="link" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png">🔗</g-emoji> Links](#-links)
     + [Learn more about Vim](#learn-more-about-vim)
     + [Plugins for Vim](#plugins-for-vim)
@@ -81,13 +81,13 @@
 
 ## 📝 Editor
 
-### Editor: Open files
+### Open files
 
 * `:e FILENAME` - open file to edit, replaced current window with file
 * `:tabe` (`:tabedit`) - open file in new tab
 * `:tabc` (`:tabclose`) - close current tab
 
-### Editor: Searching, greping etc
+### Searching, greping etc
 
 * `:noh` (`:nohl`, `:nohlsearch`) - clear highlight after search
 * `/foo` - searching text `foo` in whole document (forwards)
@@ -102,7 +102,7 @@
 * `/foo\>` - searching words ending with `foo`
 * `/\<foo\>` - searching words `foo`
 
-### Editor: Misc
+### Misc
 
 * `so ~/.vimrc` - reload configuration in opened editor
 * `:retab` - replace current whitespaces with sets in `.vimrc` file
@@ -114,15 +114,15 @@
 * <kbd>Ctrl + z</kbd> - hide Vim to background - use `fg` in terminal to bring it to foreground
 * <kbd>Ctrl + l</kbd> - redraw Vim windows
 
-### Editor: Settings
+### Settings
 
 * `au VimEnter * NERDTree` - auto open NERDTree plugin in each editor instance
 
-### Editor: Custom shortcuts
+### Custom shortcuts
 
 * `map <F9> :NERDTreeToggle <CR>` - show/hide NERDTree panel on press `<F9>`
 
-### Editor: Markers
+### Markers
 
 * `m{char}` - save current position into `{char}`
 * \`{char} - go to saved mark
@@ -153,24 +153,24 @@
     + `f` - find forward
     + `F` - find backward
 
-### Magic commands: Delete text
+### Delete text
 
 * `diw` - "delete in word" - remove single word when cursor is on it
 * `ds{` - delete nearest braces `{}`
 * `dt.` - delete text till `.`
 
-### Magic commands: Change text
+### Change text
 
 * `caw` - "change all word" (grab the whitespace)
 * `ciw` - remove the word and enter to *insert* mode
 * `ci}` - remove text in parentheses and enter to *insert* mode
 * `cit` - remove text in HTML tags
 
-### Magic commands: Copy text
+### Copy text
 
 * `yi)` - copy text inside parentheses
 
-### Magic commands: Visual select text
+### Visual select text
 
 * `va"` - visually select all inside double quotes (including double quotes)
 * `vi"` - like `va"` but without double quotes
@@ -218,14 +218,14 @@ The best way is to put them to file (`~/.vimrc`). The default path for configura
 
 ## 🔌 Plugins
 
-### Plugins: Vimium
+### Vimium
 
 `Google Chrome` plugin which supports Vim navigation in the browser.
 
 More description in the article [PL]:
 <http://piecioshka.pl/blog/2015/01/23/vimium-plugin-do-twojej-przegladarki.html>
 
-### Plugins: NERDTree
+### NERDTree
 
 Aside from panel with the directory structure. Some useful shortcuts:
 
@@ -238,7 +238,7 @@ Aside from panel with the directory structure. Some useful shortcuts:
 * <kbd>s</kbd> - open file in vertical split mode
 * <kbd>i</kbd> - open file in horizontal split mode
 
-### Plugins: NERDCommenter
+### NERDCommenter
 
 Comment line with simple
 
@@ -250,7 +250,7 @@ Comment line with simple
 * <kbd>\c$</kbd> - comment from the cursor to end of line
 * <kbd>\cA</kbd> - put comment delimiters and set cursor between them
 
-### Plugins: CtrlP
+### CtrlP
 
 Search in: files, buffers. Some shortcuts:
 
