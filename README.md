@@ -2,7 +2,7 @@
 
 📖 List of shortcuts which I used working with Vim
 
-## Table of Contents
+<details><summary>Table of Contents</summary>
 
 * [<g-emoji class="g-emoji" alias="computer_mouse" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5b1.png">🖱</g-emoji> Cursor navigation](#-cursor-navigation)
 * [<g-emoji class="g-emoji" alias="framed_picture" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5bc.png">🖼</g-emoji> Window management](#-window-management)
@@ -32,6 +32,10 @@
     + [Plugins for Vim](#plugins-for-vim)
 * [<g-emoji class="g-emoji" alias="construction" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6a7.png">🚧</g-emoji> Help](#-help)
 
+</details>
+
+---
+
 ## 🖱 Cursor navigation
 
 * scroll one page:
@@ -58,6 +62,8 @@
 * ` `` ` - back cursors to previous place
 * <kbd>Ctrl + ^</kbd> - return to previous file
 
+---
+
 ## 🖼 Window management
 
 * <kbd>Ctrl + w =</kbd> - reset windows into best width & height
@@ -78,6 +84,8 @@
 * <kbd>Ctrl + w J</kbd> - move focused window to the bottom
 * <kbd>Ctrl + w K</kbd> - move focused window to the top
 * <kbd>Ctrl + w L</kbd> - move focused window to the far right
+
+---
 
 ## 📝 Editor
 
