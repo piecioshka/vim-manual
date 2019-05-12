@@ -2,77 +2,7 @@
 
 📖 List of shortcuts which I used working with Vim
 
-## Shortcuts
-
-### Window management
-
-* <kbd>Ctrl + w =</kbd> - reset windows into best width & height
-* <kbd>Ctrl + w h</kbd> - move focus - to left window
-* <kbd>Ctrl + w j</kbd> - move focus - to down window
-* <kbd>Ctrl + w k</kbd> - move focus - to up window
-* <kbd>Ctrl + w l</kbd> - move focus - to right window
-* <kbd>Ctrl + w ></kbd> - resize window - decrease width size
-* <kbd>Ctrl + w <</kbd> - resize window - increase width size
-* <kbd>Ctrl + w -</kbd> - resize window - increase size
-* <kbd>Ctrl + w +</kbd> - resize window - decrease size
-* <kbd>{number}Ctrl + w _ </kbd> - set window height which is set to {number} lines
-* <kbd>Ctrl + w _ </kbd> - maximize in height
-* <kbd>Ctrl + w | </kbd> - maximize in width
-* <kbd>Ctrl + w H</kbd> - move focused window to the far left
-* <kbd>Ctrl + w J</kbd> - move focused window to the bottom
-* <kbd>Ctrl + w K</kbd> - move focused window to the top
-* <kbd>Ctrl + w L</kbd> - move focused window to the far right
-
-### Editor
-
-#### Editor: Open files
-
-* `:e FILENAME` - open file to edit, replaced current window with file
-* `:tabe` (`:tabedit`) - open file in new tab
-* `:tabc` (`:tabclose`) - close current tab
-
-#### Editor: Searching, greping etc
-
-* `:noh` (`:nohl`, `:nohlsearch`) - clear highlight after search
-* `/foo` - searching text `foo` in whole document (forwards)
-* `?foo` - searching text `foo` in whole document (backwards)
-* `:cw` - show result list after searching
-* `:%s/foo/bar/g` - replace globally `foo` to `bar`
-* `*` - searching word where cursor is on it (forwards)
-* `#` - searching word where cursor is on it (backwards)
-* `g*` - searching partial words where cursor is on it (forwards)
-* `g#` - searching partial words where cursor is on it (backwards)
-* `/\<foo` - searching words starting with `foo`
-* `/foo\>` - searching words ending with `foo`
-* `/\<foo\>` - searching words `foo`
-
-#### Editor: Misc
-
-* `so ~/.vimrc` - reload configuration in opened editor
-* `:retab` - replace current whitespaces with sets in `.vimrc` file
-* `:!ls` - run command `ls` in shell
-* <kbd>Ctrl + a</kbd> - increment number
-* <kbd>Ctrl + x</kbd> - decrement number
-* <kbd>ZZ</kbd> - write files and quit
-* <kbd>ZQ</kbd> - quit all instances of vim
-* <kbd>Ctrl + z</kbd> - hide Vim to background - use `fg` in terminal to bring it to foreground
-* <kbd>Ctrl + l</kbd> - redraw Vim windows
-
-### Editor: Settings
-
-* `au VimEnter * NERDTree` - auto open NERDTree plugin in each editor instance
-
-### Editor: Custom shortcuts
-
-* `map <F9> :NERDTreeToggle <CR>` - show/hide NERDTree panel on press `<F9>`
-
-#### Editor: Markers
-
-* `m{char}` - save current position into `{char}`
-* \`{char} - go to saved mark
-* `:marks` - display list of current saved markers
-
-### Cursor navigation
+## 🖱 Cursor navigation
 
 * scroll one page:
     + <kbd>Ctrl + f</kbd> - down
@@ -98,9 +28,79 @@
 * ` `` ` - back cursors to previous place
 * <kbd>Ctrl + ^</kbd> - return to previous file
 
+## 🖼 Window management
+
+* <kbd>Ctrl + w =</kbd> - reset windows into best width & height
+* move focus
+    + <kbd>Ctrl + w h</kbd> - to left window
+    + <kbd>Ctrl + w j</kbd> - to down window
+    + <kbd>Ctrl + w k</kbd> - to up window
+    + <kbd>Ctrl + w l</kbd> - to right window
+* resize window
+    + <kbd>Ctrl + w ></kbd> - decrease width size
+    + <kbd>Ctrl + w <</kbd> - increase width size
+    + <kbd>Ctrl + w -</kbd> - increase size
+    + <kbd>Ctrl + w +</kbd> - decrease size
+* <kbd>{number}Ctrl + w _ </kbd> - set window height which is set to {number} lines
+* <kbd>Ctrl + w _ </kbd> - maximize in height
+* <kbd>Ctrl + w | </kbd> - maximize in width
+* <kbd>Ctrl + w H</kbd> - move focused window to the far left
+* <kbd>Ctrl + w J</kbd> - move focused window to the bottom
+* <kbd>Ctrl + w K</kbd> - move focused window to the top
+* <kbd>Ctrl + w L</kbd> - move focused window to the far right
+
+## 📝 Editor
+
+### Editor: Open files
+
+* `:e FILENAME` - open file to edit, replaced current window with file
+* `:tabe` (`:tabedit`) - open file in new tab
+* `:tabc` (`:tabclose`) - close current tab
+
+### Editor: Searching, greping etc
+
+* `:noh` (`:nohl`, `:nohlsearch`) - clear highlight after search
+* `/foo` - searching text `foo` in whole document (forwards)
+* `?foo` - searching text `foo` in whole document (backwards)
+* `:cw` - show result list after searching
+* `:%s/foo/bar/g` - replace globally `foo` to `bar`
+* `*` - searching word where cursor is on it (forwards)
+* `#` - searching word where cursor is on it (backwards)
+* `g*` - searching partial words where cursor is on it (forwards)
+* `g#` - searching partial words where cursor is on it (backwards)
+* `/\<foo` - searching words starting with `foo`
+* `/foo\>` - searching words ending with `foo`
+* `/\<foo\>` - searching words `foo`
+
+### Editor: Misc
+
+* `so ~/.vimrc` - reload configuration in opened editor
+* `:retab` - replace current whitespaces with sets in `.vimrc` file
+* `:!ls` - run command `ls` in shell
+* <kbd>Ctrl + a</kbd> - increment number
+* <kbd>Ctrl + x</kbd> - decrement number
+* <kbd>ZZ</kbd> - write files and quit
+* <kbd>ZQ</kbd> - quit all instances of vim
+* <kbd>Ctrl + z</kbd> - hide Vim to background - use `fg` in terminal to bring it to foreground
+* <kbd>Ctrl + l</kbd> - redraw Vim windows
+
+### Editor: Settings
+
+* `au VimEnter * NERDTree` - auto open NERDTree plugin in each editor instance
+
+### Editor: Custom shortcuts
+
+* `map <F9> :NERDTreeToggle <CR>` - show/hide NERDTree panel on press `<F9>`
+
+### Editor: Markers
+
+* `m{char}` - save current position into `{char}`
+* \`{char} - go to saved mark
+* `:marks` - display list of current saved markers
+
 ---
 
-## Magic commands
+## 🔮 Magic commands
 
 ```text
 {command}{text object or motion}
@@ -131,8 +131,8 @@
 
 ### Magic commands: Change text
 
-* `caw` - "change all word" (grap the whitespace)
-* `ciw` - remove word and enter to *insert* mode
+* `caw` - "change all word" (grab the whitespace)
+* `ciw` - remove the word and enter to *insert* mode
 * `ci}` - remove text in parentheses and enter to *insert* mode
 * `cit` - remove text in HTML tags
 
@@ -145,11 +145,11 @@
 * `va"` - visually select all inside double quotes (including double quotes)
 * `vi"` - like `va"` but without double quotes
 * `vtq` - visually select text till `q` letter (stop before letter)
-* `vfq` - visually select text till `q` letter (stop after letter)
+* `vfq` - visually select text till `q` letter (stop after the letter)
 
 ---
 
-## Macros
+## 📃 Macros
 
 ### Record
 
@@ -163,47 +163,48 @@
 
 ---
 
-## Configuration rules
+## ⚙️ Configuration rules
 
-The best way is put them to file (`~/.vimrc`). Default path for configuration.
+The best way is to put them to file (`~/.vimrc`). The default path for configuration.
 
 * `syntax on` - enable syntax highlighting
 * `colorscheme molokai` - set editor theme
 * `set number` - enable line number
 * `set noic` - don't ignore letter case, ex. in searching
 * `set expandtab` - change tabulators to spaces
-* `set tabstop=4` - number of characters as indent with TAB key
+* `set tabstop=4` - number of characters as indent with the TAB key
 * `set shiftwidth=4` - number of characters as indent with insertions
-* `set mouse=a` - enable mouse in editor
+* `set mouse=a` - enable mouse in the editor
 * `set background=dark` - little change for brighter colors
 * `set autoindent` - enable automatic indention
-* `set hlsearch` - enable highlighting after searching process
+* `set hlsearch` - enable highlighting after the searching process
 * `set incsearch` - run searching process after you press any char (after '/')
-* `set nowrapscan` - stop navigate throught search result when file is ends
+* `set nowrapscan` - stop navigate through search result when a file is ends
 * `set nowrap` - don't wrap lines
 * `set clipboard=unnamedplus` - Vim use the same buffer as OS
 * `set guifont=Inconsolata\ 12` - change font in editor
 
 ---
 
-## Plugins
+## 🔌 Plugins
 
 ### Plugins: Vimium
 
-`Google Chrome` plugin which support Vim navigation in browser.
+`Google Chrome` plugin which supports Vim navigation in the browser.
 
-More description in article [PL]: http://piecioshka.pl/blog/2015/01/23/vimium-plugin-do-twojej-przegladarki.html
+More description in the article [PL]:
+<http://piecioshka.pl/blog/2015/01/23/vimium-plugin-do-twojej-przegladarki.html>
 
 ### Plugins: NERDTree
 
-Aside panel with directory structure. Some useful shortcuts:
+Aside from panel with the directory structure. Some useful shortcuts:
 
 * `q` - exit
 * `A` - maximize window
-* <kbd>Ctrl + c</kbd> - change current highlighted directory as root
+* <kbd>Ctrl + c</kbd> - change currently highlighted directory as root
 * <kbd>Ctrl + u</kbd> - change current directory as parent
 * <kbd>Ctrl + p</kbd> - set focus on parent dir on NERDTree list
-* <kbd>Ctrl + o</kbd> - on dir: open list with files; on file: edit file
+* <kbd>Ctrl + o</kbd> - on dir: open list with files; on a file: edit file
 * <kbd>s</kbd> - open file in vertical split mode
 * <kbd>i</kbd> - open file in horizontal split mode
 
@@ -213,20 +214,20 @@ Comment line with simple
 
 * <kbd>\cc</kbd> - comment line (recognized filetype and comment in current lang)
 * <kbd>\c[SPACE]</kbd> - toggle comment
-* <kbd>\cu</kbd> - remove comment
+* <kbd>\cu</kbd> - remove the comment
 * <kbd>\cs</kbd> - comment line in multiline mode
 * <kbd>\cy</kbd> - yank line and comment it
-* <kbd>\c$</kbd> - comment from cursor to end of line
+* <kbd>\c$</kbd> - comment from the cursor to end of line
 * <kbd>\cA</kbd> - put comment delimiters and set cursor between them
 
 ### Plugins: CtrlP
 
 Search in: files, buffers. Some shortcuts:
 
-* <kbd>Ctrl + f</kbd> - move base of searching into left side (switch between modes)
-* <kbd>Ctrl + b</kbd> - move base of searching into right side
+* <kbd>Ctrl + f</kbd> - move the base of searching into the left side (switch between modes)
+* <kbd>Ctrl + b</kbd> - move the base of searching into the right side
 * <kbd>Ctrl + r</kbd> - search by regexp mode
-* <kbd>Ctrl + j</kbd> - like `j` in file (move cursor in search list down)
+* <kbd>Ctrl + j</kbd> - like `j` in a file (move cursor in search list down)
 * <kbd>Ctrl + k</kbd> - like `k`
 * <kbd>Ctrl + t</kbd> - open selected file in new tab
 * <kbd>Ctrl + x</kbd> - open selected file in half horizontal window
@@ -234,11 +235,11 @@ Search in: files, buffers. Some shortcuts:
 
 ---
 
-## Links
+## 🔗 Links
 
 ### Learn more about Vim
 
-* http://walking-without-crutches.heroku.com/ - textmate vs. vim - useful presentation
+* http://walking-without-crutches.heroku.com/ - TextMate vs. Vim - useful presentation
 * http://walking-without-crutches.heroku.com/image/images/vi-vim-cheat-sheet.png - cool cheat sheet
 * http://vimcasts.org/ - video cast about Vim
 * http://www.vim.org/docs.php - full Vim documentation
@@ -253,13 +254,13 @@ Search in: files, buffers. Some shortcuts:
 * https://github.com/ctrlpvim/ctrlp.vim - show window with last modified files
 * https://github.com/scrooloose/nerdtree - NERDTree support editor for projects navigation
 * https://github.com/ervandew/supertab - show suggest after `<tab>` press
-* https://github.com/scrooloose/syntastic - check syntax after save file
-* https://github.com/bling/vim-airline - show fancy chars in bottom bar, some arrows etc.
-* https://github.com/majutsushi/tagbar - show outline of methods in file
-* https://github.com/tpope/vim-surround - add possibility to wrap string with smth
+* https://github.com/scrooloose/syntastic - check syntax after saving file
+* https://github.com/bling/vim-airline - show fancy chars in the bottom bar, some arrows, etc.
+* https://github.com/majutsushi/tagbar - show outline of methods in a file
+* https://github.com/tpope/vim-surround - add a possibility to wrap string with smth
 * https://github.com/Townk/vim-autoclose - if you put '(' this plugin automatically puts ')'
 * https://github.com/airblade/vim-gitgutter - show plus/minus when you make changes
-* https://github.com/matze/vim-move - can move up/down current line
+* https://github.com/matze/vim-move - can move up/down the current line
 * https://github.com/mattn/emmet-vim - plugin for emmet - successor of zen-coding
 * https://github.com/scrooloose/nerdcommenter - comments line
 * https://github.com/tpope/vim-markdown - highlighter for \*.md files
@@ -267,13 +268,13 @@ Search in: files, buffers. Some shortcuts:
 
 ---
 
-## Help
+## 🚧 Help
 
 You can always use this:
 
 * `:h quickref`
 * `:h SHORTCUT` (`:h dd`, `:h :s`)
-* `:exusage` - open help window and scroll to `EX commands` (very useful when you try check meaning of all Vim commands)
+* `:exusage` - open help window and scroll to `EX commands` (very useful when you try to check the meaning of all Vim commands)
 
 ---
 
