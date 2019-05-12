@@ -2,6 +2,36 @@
 
 📖 List of shortcuts which I used working with Vim
 
+## Table of Contents
+
+* [<g-emoji class="g-emoji" alias="computer_mouse" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5b1.png">🖱</g-emoji> Cursor navigation](#-cursor-navigation)
+* [<g-emoji class="g-emoji" alias="framed_picture" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5bc.png">🖼</g-emoji> Window management](#-window-management)
+* [<g-emoji class="g-emoji" alias="memo" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png">📝</g-emoji> Editor](#-editor)
+    + [Editor: Open files](#editor-open-files)
+    + [Editor: Searching, greping etc](#editor-searching-greping-etc)
+    + [Editor: Misc](#editor-misc)
+    + [Editor: Settings](#editor-settings)
+    + [Editor: Custom shortcuts](#editor-custom-shortcuts)
+    + [Editor: Markers](#editor-markers)
+* [<g-emoji class="g-emoji" alias="crystal_ball" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f52e.png">🔮</g-emoji> Magic commands](#-magic-commands)
+    + [Magic commands: Delete text](#magic-commands-delete-text)
+    + [Magic commands: Change text](#magic-commands-change-text)
+    + [Magic commands: Copy text](#magic-commands-copy-text)
+    + [Magic commands: Visual select text](#magic-commands-visual-select-text)
+* [<g-emoji class="g-emoji" alias="page_with_curl" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c3.png">📃</g-emoji> Macros](#-macros)
+    + [Record](#record)
+    + [Play](#play)
+* [<g-emoji class="g-emoji" alias="gear" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2699.png">⚙️</g-emoji> Configuration rules](#️-configuration-rules)
+* [<g-emoji class="g-emoji" alias="electric_plug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50c.png">🔌</g-emoji> Plugins](#-plugins)
+    + [Plugins: Vimium](#plugins-vimium)
+    + [Plugins: NERDTree](#plugins-nerdtree)
+    + [Plugins: NERDCommenter](#plugins-nerdcommenter)
+    + [Plugins: CtrlP](#plugins-ctrlp)
+* [<g-emoji class="g-emoji" alias="link" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png">🔗</g-emoji> Links](#-links)
+    + [Learn more about Vim](#learn-more-about-vim)
+    + [Plugins for Vim](#plugins-for-vim)
+* [<g-emoji class="g-emoji" alias="construction" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6a7.png">🚧</g-emoji> Help](#-help)
+
 ## 🖱 Cursor navigation
 
 * scroll one page:
